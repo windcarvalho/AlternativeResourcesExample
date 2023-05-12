@@ -26,11 +26,11 @@ class MainActivity : AppCompatActivity(){
     }
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
-
+        Log.v("PDM23","Entrei na mudança de configuração")
         //Esse método só é chamado se houver declaração no Android Manifest
 
         var bt= findViewById<Button>(R.id.button)
-        //Cconfere se mudou para Landscape
+        //Confere se mudou para Landscape
         if (newConfig.orientation==Configuration.ORIENTATION_LANDSCAPE){
             bt.setBackgroundColor(Color.CYAN)
         }else{

@@ -11,10 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AlternativeResourcesExample"
         tools:targetApi="31">
+
+        <!-- Adicione a tag abaixo para monitorar por código a orientação da tela -->
+        <!--android:configChanges="orientation|screenSize" -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:configChanges="orientation|screenSize"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
