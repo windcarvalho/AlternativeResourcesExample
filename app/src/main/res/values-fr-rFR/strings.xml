@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Example des Resources Alternatives</string>
+    <string name="aumente_a_fonte">Augmenter la taille de la police</string>
+    <string name="ol_mundo">Salut le monde</string>
+</resources>
